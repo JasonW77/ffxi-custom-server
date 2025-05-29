@@ -13,6 +13,8 @@ entity.onTrade = function(player, npc, trade)
     then
         player:startEvent(10008, xi.settings.main.GIL_RATE * 50)
         player:addGil(xi.settings.main.GIL_RATE * 50)
+	player:addItem(28540);
+        player:messageSpecial(ITEM_OBTAINED, 28540); -- Warp Ring
         player:tradeComplete()
     end
 end

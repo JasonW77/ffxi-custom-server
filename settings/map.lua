@@ -34,10 +34,10 @@ xi.settings.map =
     PACKETGUARD_ENABLED = true,
 
     -- Minimal number of 0x3A packets which uses for detect lightluggage (set 0 for disable)
-    LIGHTLUGGAGE_BLOCK = 4,
+    LIGHTLUGGAGE_BLOCK = 0,
 
     -- Enable or disable Recycle Bin (Set to false for items to be dropped immediately)
-    ENABLE_ITEM_RECYCLE_BIN = true,
+    ENABLE_ITEM_RECYCLE_BIN = false,
 
     -- AH fee structure, defaults are retail.
     AH_BASE_FEE_SINGLE = 1,
@@ -49,7 +49,7 @@ xi.settings.map =
     -- Max open listings per player, 0 = no limit. (Default 7)
     -- Note = Settings over 7 may need client-side plugin to work under all circumstances.
     -- If this is the case, consider using the ah_pagination module (which supports setting AH_LIST_LIMIT to 0 or >7).
-    AH_LIST_LIMIT = 7,
+    AH_LIST_LIMIT = 14,
 
     -- The total enmity cap for a given entity on the enmity table.
     -- 30,000 is believed to be approximately current retail cap.
@@ -68,7 +68,7 @@ xi.settings.map =
     EXP_PARTY_GAP_NO_EXP = 0,
 
     -- Capacity Point Settings
-    CAPACITY_RATE = 1.0,
+    CAPACITY_RATE = 2.0,
 
     -- Determines Vana'diel time epoch (886/1/1 Firesday)
     -- current timestamp - vanadiel_time_epoch = vana'diel time
@@ -83,11 +83,11 @@ xi.settings.map =
     EXP_RETAIN = 0,
 
     -- Minimum level at which experience points can be lost
-    EXP_LOSS_LEVEL = 31,
+    EXP_LOSS_LEVEL = 10,
 
     -- Minimum level at which regional influence is lost in conquest when a player dies
     -- Level 5 and below don't lose influence: http://wiki.ffo.jp/html/498.html
-    MINIMUM_LEVEL_CONQUEST_INFUENCE_LOSS = 6,
+    MINIMUM_LEVEL_CONQUEST_INFUENCE_LOSS = 99,
 
     -- Enable/disable Level Sync
     LEVEL_SYNC_ENABLE = true,
@@ -126,7 +126,7 @@ xi.settings.map =
     MOB_RUN_SPEED_MULTIPLIER = 2.5,
 
     -- Allows you to manipulate the constant multiplier in the skill-up rate formulas, having a potent effect on skill-up rates.
-    SKILLUP_CHANCE_MULTIPLIER = 1.0,
+    SKILLUP_CHANCE_MULTIPLIER = 2.0,
     CRAFT_CHANCE_MULTIPLIER   = 1.0,
 
     -- Multiplier for skillup amounts. Using anything above 1 will break the 0.5 cap, the cap will become 0.9 (For maximum, set to 5)
@@ -146,10 +146,10 @@ xi.settings.map =
     CRAFT_COMMON_CAP = 700,
 
     -- Amount of points allowed in crafts over the level defined above. Points are shared across all crafting skills. (Retail = 400; All skills can go to max = 3200)
-    CRAFT_SPECIALIZATION_POINTS = 400,
+    CRAFT_SPECIALIZATION_POINTS = 3200,
 
     -- Multiplier applied to high quality chance
-    CRAFT_HQ_CHANCE_MULTIPLIER = 1.0,
+    CRAFT_HQ_CHANCE_MULTIPLIER = 2.5,
 
     -- Enable/disable all fishing, including quests. ENABLE AT YOUR OWN RISK.
     FISHING_ENABLE = false,
@@ -200,10 +200,10 @@ xi.settings.map =
     NM_STAT_MULTIPLIER        = 1.0,
     MOB_STAT_MULTIPLIER       = 1.0,
     PLAYER_STAT_MULTIPLIER    = 1.0,
-    ALTER_EGO_STAT_MULTIPLIER = 1.0,
+    ALTER_EGO_STAT_MULTIPLIER = 1.5,
 
     -- Adjust skill caps for trusts/fellows. Acts as a multiplier, so default is 1.
-    ALTER_EGO_SKILL_MULTIPLIER = 1.0,
+    ALTER_EGO_SKILL_MULTIPLIER = 1.5,
 
     -- Adjust the recast time for abilities. Acts as a multiplier, so default is 1
     ABILITY_RECAST_MULTIPLIER = 1.0,
@@ -215,7 +215,7 @@ xi.settings.map =
     DROP_RATE_MULTIPLIER = 1.0,
 
     -- Multiplier for gil naturally dropped by mobs. Does not apply to the bonus gil from all_mobs_gil_bonus. Default is 1.0.
-    MOB_GIL_MULTIPLIER = 1.0,
+    MOB_GIL_MULTIPLIER = 2.0,
 
     -- All mobs drop this much extra gil per mob LV even if they normally drop zero.
     ALL_MOBS_GIL_BONUS = 0,
@@ -224,10 +224,10 @@ xi.settings.map =
     MAX_GIL_BONUS = 9999,
 
     -- Allow mobs to walk back home instead of despawning
-    MOB_NO_DESPAWN = false,
+    MOB_NO_DESPAWN = true,
 
     -- Adds extra time to mob despawn in seconds. Base time is 25s, so a setting of 5 here would be a total of 30 seconds.
-    MOB_ADDITIONAL_TIME_TO_DEAGGRO = 0,
+    MOB_ADDITIONAL_TIME_TO_DEAGGRO = 35,
 
     -- Allows parry, block, and guard to skill up regardless of the action occuring.
     -- This did not happen in previous eras
@@ -282,7 +282,7 @@ xi.settings.map =
     AUDIT_PLAYER_VENDOR = false,
 
     -- Seconds between healing ticks. Default is 10
-    HEALING_TICK_DELAY = 10,
+    HEALING_TICK_DELAY = 2,
 
     -- Enable/disable keeping jug pets through zoning
     KEEP_JUGPET_THROUGH_ZONING = false,

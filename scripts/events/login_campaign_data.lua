@@ -19,6 +19,11 @@ local prizes =
             xi.item.KINDREDS_CREST,
             xi.item.HIGH_KINDREDS_CREST,
             xi.item.SACRED_KINDREDS_CREST,
+	--	26406, --Kupo Shield
+	--	10293, --Chocobo Shirt
+	--	11811, --Destrier beret
+	--	27556, --Echad Ring
+	--	27557, --Trizek Ring
             -- 1857, -- Cordial Invite
             -- 2306, -- Martial Ball Invite
             -- 5364, -- Training Grounds Key
@@ -173,6 +178,15 @@ local prizes =
             xi.item.CUP_OF_SWEET_TEA, -- Sweet Tea
             xi.item.SAVORY_SHANK, -- Savory Shank
             xi.item.CLUMP_OF_RED_PONDWEED, -- Red Pondweed
+	--	11009, --Shapers Shawl
+	--	10948, --Carvers Torque
+	--	10949, --Smithys Torque
+	--	10950, --Goldsmiths Torque
+	--	10951, --Weavers Torque
+	--	10952, --Tanners Torque
+	--	10953, --Boneworkers Torque
+	--	10954, --Alchemists Torque
+	--	10955, --Culinarians Torque
             -- 8720, -- Maliya. Coral Orb
             -- 8722, -- Hepatizon Ingot
             -- 8724, -- Beryllium Ingot

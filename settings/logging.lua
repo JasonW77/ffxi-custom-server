@@ -38,10 +38,10 @@ xi.settings.logging =
     PATTERN = "[%D %T:%e][%&]%^[%n]%$ %v (%!:%#)",
 
     -- Enable/Disable these logging types globally
-    LOG_DEBUG   = true,
-    LOG_INFO    = true,
-    LOG_WARNING = true,
-    LOG_LUA     = true, -- Prints from Lua using `print()`
+    LOG_DEBUG   = false,
+    LOG_INFO    = false,
+    LOG_WARNING = false,
+    LOG_LUA     = false, -- Prints from Lua using `print()`
 
     -- Specific Debug loggers
     DEBUG_SOCKETS        = false, -- Calls in C++: DebugSockets(...)

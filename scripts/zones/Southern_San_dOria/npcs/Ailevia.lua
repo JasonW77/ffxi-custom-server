@@ -23,11 +23,17 @@ entity.onTrigger = function(player, npc)
     player:startEvent(615) -- i know a thing or 2 about these streets
 end
 
+entity.onEventUpdate = function(player, csid, option, npc)
+end
+
 entity.onEventFinish = function(player, csid, option, npc)
     if csid == 655 then
         player:tradeComplete()
-        npcUtil.giveCurrency(player, 'gil', 50)
+        npcUtil.giveCurrency(player, 'gil', 500)
+        player:addItem(28540);
+		player:messageSpecial(ITEM_OBTAINED, 28540); -- Warp Ring
     end
 end
 
 return entity
+

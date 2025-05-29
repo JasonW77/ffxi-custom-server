@@ -28,11 +28,24 @@ menu =
 page1 =
 {
     {
+        'Destrier Beret',
+        function(playerArg)
+            playerArg:giveItem(xi.item.DESTRIER_BERET)
+        end,
+    },
+    {
+        'Kupo Shield',
+        function(playerArg)
+            playerArg:giveItem(xi.item.KUPO_SHIELD)
+        end,
+    },
+    {
         'Send me to Jeuno!',
         function(playerArg)
             playerArg:setPos(0, 0, 0, 0, xi.zone.LOWER_JEUNO)
         end,
     },
+
     {
         'Next Page',
         function(playerArg)

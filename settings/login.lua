@@ -12,14 +12,14 @@ xi.settings = xi.settings or {}
 xi.settings.login =
 {
     -- Expected Client version (wrong version cannot log in)
-    CLIENT_VER = "30240904_0",
+    CLIENT_VER = "30250328_0",
 
     -- 0 - disabled (every version allowed)
     -- 1 - enabled - strict (only exact CLIENT_VER allowed)
     -- 2 - enabled - greater than or equal  (matching or greater than CLIENT_VER allowed, default)
     --
     -- WE STRONGLY ADVISE AGAINST LOCKING THE SERVER TO OLDER VERSIONS. IT IS A UNIVERSALLY BAD IDEA.
-    VER_LOCK = 2,
+    VER_LOCK = 0,
 
     -- 0 - disabled (normal operation)
     -- 1 - enabled (only GM characters allowed online, no new character creation)
