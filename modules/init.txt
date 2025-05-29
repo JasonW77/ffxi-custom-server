@@ -41,13 +41,14 @@ custom/lua/test_npcs_in_gm_home.lua
 custom/lua/homepoint_heal.lua
 custom/cpp/
 custom/lua/new_player_linkshell.lua
-custom/lua/replace_trust_with_cornelia.lua
+#custom/lua/replace_trust_with_cornelia.lua
 custom/lua/world_first_announcements.lua
 custom/lua/wotg_decouple_story_missions_from_nation_quests.lua
 custom/lua/soa_remove_imprimatur_gate.lua
-custom/lua/linkshell_concierge.lua
-custom/lua/mission_wardrobe_unlocks.lua
+#custom/lua/linkshell_concierge.lua
+#custom/lua/mission_wardrobe_unlocks.lua
 custom/lua/conquest_regional_npcs_always_up.lua
+custom/lua/quest_workarounds.lua
 era/lua/pre_rmt_drops.lua
 era/lua/era_HNM_system.lua
 era/sql/pre_rmt_drops.sql
