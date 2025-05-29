@@ -135,7 +135,7 @@ xi.settings.main =
     WEAPON_SKILL_POWER  = 1.500, -- Multiplies damage dealt by Weapon Skills.
 
     USE_ADOULIN_WEAPON_SKILL_CHANGES = true,  -- true/false. Change to toggle new Adoulin weapon skill damage calculations
-    DISABLE_PARTY_EXP_PENALTY        = false, -- true/false.
+    DISABLE_PARTY_EXP_PENALTY        = true, -- true/false.
     ENABLE_IMMUNOBREAK               = true,  -- true/false. Allow/Disallow immunobreaks to happen.
     USE_PRE_2013_DEX_MULTIPLIER      = false, -- true/false. False uses 75% of DEX for accuracy calculation. Prior to 2013 50% of DEX was used.
     USE_PRE_2013_STR_MULTIPLIER      = false, -- true/false. False uses STR multiplier of 1.0 for two handed, one handed main, and ranged attacks, 0.75 for H2H, and 0.5 for one handed in sub slot. True uses 0.5 of STR across the board and is how the game was from release to mid 2013.
@@ -266,7 +266,7 @@ xi.settings.main =
 
     -- Login Campaign (Set to 0 if you don't want to run a Login Campaign)
     -- Please visit scripts/globals/events/login_campaign.lua for assigning the correct campaign dates.
-    ENABLE_LOGIN_CAMPAIGN = 0,
+    ENABLE_LOGIN_CAMPAIGN = 1,
 
     -- FISH RANKING CONTEST
     -- Set to false to require manual progression of contest
@@ -305,7 +305,7 @@ xi.settings.main =
     DIG_GRANT_BURROW             = 0,     -- Set to 1 to grant burrow ability
     DIG_GRANT_BORE               = 0,     -- Set to 1 to grant bore ability
     ENM_COOLDOWN                 = 120,   -- Number of hours before a player can obtain same KI for ENMs (default: 5 days)
-    FORCE_SPAWN_QM_RESET_TIME    = 300,   -- Number of seconds the ??? remains hidden for after the despawning of the mob it force spawns.
+    FORCE_SPAWN_QM_RESET_TIME    = 150,   -- Number of seconds the ??? remains hidden for after the despawning of the mob it force spawns.
     EQUIP_FROM_OTHER_CONTAINERS  = false, -- true/false. Allows equipping items from Mog Satchel, Sack, and Case. Only possible with the use of client addons.
     REGIME_REWARD_THRESHOLD      = 15,    -- If the player is more than N levels below the minimum suggested range, do not award experience.
 

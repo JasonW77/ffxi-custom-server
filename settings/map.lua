@@ -126,7 +126,7 @@ xi.settings.map =
     MOB_RUN_SPEED_MULTIPLIER = 2.5,
 
     -- Allows you to manipulate the constant multiplier in the skill-up rate formulas, having a potent effect on skill-up rates.
-    SKILLUP_CHANCE_MULTIPLIER = 2.0,
+    SKILLUP_CHANCE_MULTIPLIER = 4.0,
     CRAFT_CHANCE_MULTIPLIER   = 1.0,
 
     -- Multiplier for skillup amounts. Using anything above 1 will break the 0.5 cap, the cap will become 0.9 (For maximum, set to 5)
@@ -149,7 +149,7 @@ xi.settings.map =
     CRAFT_SPECIALIZATION_POINTS = 3200,
 
     -- Multiplier applied to high quality chance
-    CRAFT_HQ_CHANCE_MULTIPLIER = 2.5,
+    CRAFT_HQ_CHANCE_MULTIPLIER = 3.5,
 
     -- Enable/disable all fishing, including quests. ENABLE AT YOUR OWN RISK.
     FISHING_ENABLE = false,
@@ -212,7 +212,7 @@ xi.settings.map =
     BLOOD_PACT_SHARED_TIMER = false,
 
     -- Adjust mob drop rate. Acts as a multiplier, so default is 1.
-    DROP_RATE_MULTIPLIER = 1.0,
+    DROP_RATE_MULTIPLIER = 2.0,
 
     -- Multiplier for gil naturally dropped by mobs. Does not apply to the bonus gil from all_mobs_gil_bonus. Default is 1.0.
     MOB_GIL_MULTIPLIER = 2.0,
