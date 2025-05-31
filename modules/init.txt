@@ -36,5 +36,28 @@
 #
 # Live example:
 
-custom/commands/
+custom/cpp
+# ---------------------
+custom/lua/announce_player_login.lua
+custom/lua/homepoint_heal.lua
+#custom/lua/mission_wardrobe_unlocks.lua
+custom/lua/conquest_regional_npcs_always_up.lua
+custom/lua/new_player_linkshell.lua
+custom/lua/quest_workarounds.lua
+custom/lua/replace_trust_with_cornelia.lua
+custom/lua/soa_remove_imprimatur_gate.lua
 custom/lua/test_npcs_in_gm_home.lua
+custom/lua/world_first_announcements.lua
+custom/lua/wotg_decouple_story_missions_from_nation_quests.lua
+# ---------------------
+custom/sql/monk_trait_adjustments.sql
+custom/sql/safe_outposts.sql
+custom/sql/starter_zone_fast_repops.sql
+custom/sql/warrior_trait_adjustments.sql
+# ---------------------
+era/lua/cop_signet.lua
+era/lua/era_HNM_system.lua
+era/lua/pre_rmt_drops.lua
+# ---------------------
+era/sql/2007_exp_tables.sql
+#era/sql/pre_rmt_drops.sql
