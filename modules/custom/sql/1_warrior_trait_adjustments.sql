@@ -22,7 +22,7 @@ REPLACE INTO `traits` (`traitid`, `name`, `job`, `level`, `rank`, `modifier`, `v
 (7, 'max hp boost', 1, 70, 7, 1095, 600, NULL, 0),
 (7, 'max hp boost', 1, 80, 8, 1095, 800, NULL, 0),
 (7, 'max hp boost', 1, 90, 9, 1095, 1000, NULL, 0),
-(9, 'auto regen', 1, 1, 1, 370, 1, NULL, 0),
+(9, 'auto regen', 1, 31, 1, 370, 1, NULL, 0),
 (15, 'double attack', 1, 15, 1, 288, 15, NULL, 0),
 (15, 'double attack', 1, 30, 2, 288, 30, NULL, 0),
 (15, 'double attack', 1, 45, 3, 288, 45, NULL, 0),

@@ -50,16 +50,16 @@ local prizes =
             xi.item.DWARF_PUGIL, -- Dwarf Pugil
             xi.item.ASTRAL_CUBE,  -- Astral Cube
             -- 9891,  -- Zinnia Orb
-            -- 10112, -- Cipher: Zeid
-            -- 10113, -- Cipher: Lion
-            xi.item.CIPHER_OF_NAJAS_ALTER_EGO, -- Cipher: Naja
+           -- xi.item.CIPHER_OF_ZIEDS_ALTER_EGO,  -- 10112, -- Cipher: Zeid
+           -- xi.item.CIPHER_OF_LIONS_ALTER_EGO,  -- 10113, -- Cipher: Lion
+            xi.item.CIPHER_OF_NAJAS_ALTER_EGO,  -- Cipher: Naja
             xi.item.CIPHER_OF_LEHKOS_ALTER_EGO, -- Cipher: Lehko
-            -- 10124, -- Cipher: Luzaf
-            -- 10125, -- Cipher: Najelith
-            -- 10129, -- Cipher: Domina
-            -- 10134, -- Cipher: S. Sibyl
-            -- 10142, -- Cipher: Karaha
-            -- 10149, -- Cipher: Areuhat
+           -- xi.item.CIPHER_OF_LUZAFS_ALTER_EGO, -- 10124, -- Cipher: Luzaf
+           -- xi.item.CIPHER_OF_NAJELITHS_ALTER_EGO,-- 10125, -- Cipher: Najelith
+           -- xi.item.CIPHER_OF_DOMINAS_ALTER_EGO,-- 10129, -- Cipher: Domina
+           -- xi.item.CIPHER_OF_STAR_SIBYLS_ALTER_EGO,-- 10134, -- Cipher: S. Sibyl
+           -- xi.item.CIPHER_OF_KARAHAS_ALTER_EGO,-- 10142, -- Cipher: Karaha
+           -- xi.item.CIPHER_OF_AREUHATS_ALTER_EGO,-- 10149, -- Cipher: Areuhat
         },
     },
 
@@ -68,19 +68,19 @@ local prizes =
         ['price'] = 100,
         ['items'] =
         {
-            -- 10136, -- Cipher: Uka
-            -- 10141, -- Cipher: Kuyin
-            -- 10144, -- Cipher: Abenzio
-            -- 10145, -- Cipher: Rughadjeen
-            -- 10150, -- Cipher: Lhe
-            -- 10151, -- Cipher: Mayakov
-            -- 10155, -- Cipher: Brygid
-            -- 10156, -- Cipher: Mildaurion
-            -- 10161, -- Cipher: Rongelouts
-            -- 10166, -- Cipher: Robel-Akbel
-            -- 10178, -- Cipher: Ullegore
-            -- 10179, -- Cipher: Teodor
-            -- 10183, -- Cipher: Darrcuiln
+           -- xi.item.CIPHER_OF_UKAS_ALTER_EGO,-- 10136, -- Cipher: Uka
+           -- xi.item.CIPHER_OF_KUYINS_ALTER_EGO,-- 10141, -- Cipher: Kuyin
+           -- xi.item.CIPHER_OF_ABENZIOS_ALTER_EGO,-- 10144, -- Cipher: Abenzio
+           -- xi.item.CIPHER_OF_RUGHADJEENS_ALTER_EGO,-- 10145, -- Cipher: Rughadjeen
+           -- xi.item.CIPHER_OF_LHES_ALTER_EGO,-- 10150, -- Cipher: Lhe
+           -- xi.item.CIPHER_OF_MAYAKOVS_ALTER_EGO, -- 10151, -- Cipher: Mayakov
+           -- xi.item.CIPHER_OF_BRYGIDS_ALTER_EGO,-- 10155, -- Cipher: Brygid
+           -- xi.item.CIPHER_OF_MILDAURIONS_ALTER_EGO,-- 10156, -- Cipher: Mildaurion
+           -- xi.item.CIPHER_OF_RONGELOUTSS_ALTER_EGO,-- 10161, -- Cipher: Rongelouts
+           -- xi.item.CIPHER_OF_ROBEL-AKBELS_ALTER_EGO,-- 10166, -- Cipher: Robel-Akbel
+           -- xi.item.CIPHER_OF_ULLEGORES_ALTER_EGO,-- 10178, -- Cipher: Ullegore
+           -- xi.item.CIPHER_OF_TEODORS_ALTER_EGO,-- 10179, -- Cipher: Teodor
+           -- xi.item.CIPHER_OF_DARRCUILNS_ALTER_EGO,-- 10183, -- Cipher: Darrcuiln
             xi.item.EXCALIPOOR, -- Excalipoor
             xi.item.PIECE_OF_COPSE_CANDY,  -- Copse Candy
         },
@@ -91,7 +91,7 @@ local prizes =
         ['price'] = 300,
         ['items'] =
         {
-            -- 10187, -- Cipher: Shantotto II
+            xi.item.CIPHER_OF_SHANTOTTOS_ALTER_EGO_II, -- 10187, -- Cipher: Shantotto II
             xi.item.MOUNT_GOOBBUE, -- ♪Goobbue
             xi.item.MOUNT_CRAB, -- ♪Crab
             xi.item.MOUNT_BEETLE, -- ♪Beetle

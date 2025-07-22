@@ -7,10 +7,10 @@ CREATE PROCEDURE replace_drop(
     IN newDropName TINYTEXT
 )
 BEGIN
-    SET @zoneId = (SELECT zoneid FROM zone_settings WHERE `name` COLLATE utf8mb4_general_ci = zoneName COLLATE utf8mb4_general_ci);
-    SET @oldDropId = (SELECT itemid FROM item_basic WHERE `name` COLLATE utf8mb4_general_ci = oldDropName COLLATE utf8mb4_general_ci);
-    SET @newDropId = (SELECT itemid FROM item_basic WHERE `name` COLLATE utf8mb4_general_ci = newDropName COLLATE utf8mb4_general_ci);
-    SET @dropListId = (SELECT dropid from mob_groups WHERE zoneid = @zoneId AND name = mobName);
+    SET @zoneId = (SELECT zoneid FROM zone_settings WHERE `name` = zoneName COLLATE utf8mb4_general_ci);
+    SET @oldDropId = (SELECT itemid FROM item_basic WHERE `name` = oldDropName COLLATE utf8mb4_general_ci);
+    SET @newDropId = (SELECT itemid FROM item_basic WHERE `name` = newDropName COLLATE utf8mb4_general_ci);
+    SET @dropListId = (SELECT dropid FROM mob_groups WHERE zoneid = @zoneId AND name = mobName COLLATE utf8mb4_general_ci);
     UPDATE mob_droplist SET itemId = @newDropId WHERE dropId = @dropListId AND itemId = @oldDropId;
 END $$
 DELIMITER ;

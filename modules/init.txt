@@ -37,11 +37,15 @@
 # Live example:
 
 custom/cpp
+
 # ---------------------
 custom/lua/announce_player_login.lua
-custom/lua/homepoint_heal.lua
-#custom/lua/mission_wardrobe_unlocks.lua
+custom/lua/chocobo_raising_qol.lua
 custom/lua/conquest_regional_npcs_always_up.lua
+custom/lua/custom_HNM_system.lua
+custom/lua/garrison_placeholder_data.lua
+custom/lua/homepoint_heal.lua
+custom/lua/mazurka_generates_enmity.lua
 custom/lua/new_player_linkshell.lua
 custom/lua/quest_workarounds.lua
 custom/lua/replace_trust_with_cornelia.lua
@@ -49,15 +53,40 @@ custom/lua/soa_remove_imprimatur_gate.lua
 custom/lua/test_npcs_in_gm_home.lua
 custom/lua/world_first_announcements.lua
 custom/lua/wotg_decouple_story_missions_from_nation_quests.lua
+
 # ---------------------
-custom/sql/monk_trait_adjustments.sql
+custom/sql/1_warrior_trait_adjustments.sql
+custom/sql/2_monk_trait_adjustments.sql
+custom/sql/3_white_mage_trait_adjustments.sql
+custom/sql/4_black_mage_trait_adjustments.sql
+custom/sql/5_red_mage_trait_adjustments.sql
+custom/sql/6_thief_trait_adjustments.sql
+custom/sql/7_paladin_trait_adjustments.sql
+custom/sql/8_dark_knight_trait_adjustments.sql
+custom/sql/9_beastmaster_trait_adjustments.sql
+custom/sql/10_bard_trait_adjustments.sql
+custom/sql/11_ranger_trait_adjustments.sql
+custom/sql/12_samurai_trait_adjustments.sql
+custom/sql/13_ninja_trait_adjustments.sql
+custom/sql/14_dragoon_trait_adjustments.sql
+custom/sql/15_summoner_trait_adjustments.sql
+custom/sql/16_blue_mage_trait_adjustments.sql
+custom/sql/17_corsair_trait_adjustments.sql
+custom/sql/18_puppet_master_trait_adjustments.sql
+custom/sql/19_dancer_trait_adjustments.sql
+custom/sql/20_scholar_trait_adjustments.sql
+custom/sql/21_geomancer_trait_adjustments.sql
+custom/sql/22_rune_fencer_trait_adjustments.sql
 custom/sql/safe_outposts.sql
-custom/sql/starter_zone_fast_repops.sql
-custom/sql/warrior_trait_adjustments.sql
+custom/sql/faster_repop_times.sql
+custom/sql/replace_drop_safe.sql
+custom/sql/server_ip_adjustment.sql
+
 # ---------------------
 era/lua/cop_signet.lua
-era/lua/era_HNM_system.lua
+era/lua/era_effect_composure.lua
 era/lua/pre_rmt_drops.lua
+
 # ---------------------
 era/sql/2007_exp_tables.sql
 #era/sql/pre_rmt_drops.sql

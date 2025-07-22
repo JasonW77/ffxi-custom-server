@@ -8,7 +8,7 @@ REPLACE INTO `traits` (`traitid`, `name`, `job`, `level`, `rank`, `modifier`, `v
 (7, 'max hp boost', 2, 50, 4, 1095, 240, NULL, 0),
 (7, 'max hp boost', 2, 60, 5, 1095, 480, NULL, 0),
 (7, 'max hp boost', 2, 70, 6, 1095, 960, NULL, 0),
-(9, 'auto regen', 2, 1, 1, 370, 1, NULL, 0),
+(9, 'auto regen', 2, 31, 1, 370, 1, NULL, 0),
 (17, 'counter', 2, 1, 1, 291, 10, NULL, 0),
 (17, 'counter', 2, 20, 2, 291, 20, NULL, 0),
 (17, 'counter', 2, 50, 3, 291, 30, NULL, 0),
