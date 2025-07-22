@@ -231,7 +231,7 @@ memcheck.out.*
 
 # Module init file
 modules/init.txt
-
+modules/custom/sql/server_ip_adjustment.sql
 # Doxygen
 doxygen/
 
